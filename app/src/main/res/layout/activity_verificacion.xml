@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/inicio_salar">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="180dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/postal_salar"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Verificacion de Usuario"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/comic_sans" />
+    <TextView
+        android:id="@+id/txtYaTienesCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ven y unite a nuestra comunidad"
+        android:textSize="12sp" />
+
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="40dp"
+        android:hint="Nombre de Usuario"
+        android:padding="10dp"
+        android:background="@drawable/edittext_bg" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/edittext_bg2"
+        android:text="INGRESAR"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+</LinearLayout>

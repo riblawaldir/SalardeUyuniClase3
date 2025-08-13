@@ -76,7 +76,7 @@
         android:layout_marginTop="30dp"
         android:text="REGISTRAR"
         android:textStyle="bold"
-        android:background="#E6D9C6"
+        android:background="@drawable/edittext_bg2"
         android:textColor="#000000" />
 
     <TextView
