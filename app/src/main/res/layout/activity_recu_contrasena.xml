@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/inicio_salar">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/comic_sans"
+        android:text="Recuperar Contraseña"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtYaTienesCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ven y unite a nuestra comunidad"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="207dp"
+        android:layout_height="302dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/postal_salar" />
+
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginHorizontal="40dp"
+        android:hint="Contraseña"
+        android:padding="10dp"
+        android:background="@drawable/edittext_bg" />
+
+
+    <EditText
+        android:id="@+id/edtUsuario2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Confirma tu ccontraseña"
+        android:padding="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittext_bg2"
+        android:text="continuar"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+</LinearLayout>
